@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wos</title>
+    <meta name="autor" content="Laura García García">
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <!-- CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link href="./css/cssCantantes.css" rel="stylesheet" type="text/css" />
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+        incluir archivos JavaScript individuales de los únicos
+        plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="col-12 cabecera">
+        &nbsp;
+        <a href="./AAmenu.html" style="text-decoration:none">
+          <img src="./img/logo3.png" width="50px" height="50px" alt="Logo"/>
+        </a>
+        &nbsp; &nbsp;
+        <a href="./AAmenu.html" style="text-decoration:none">
+          <img src="./img/titulo3.png" width="300px" height="50px" alt="Titulo"/>
+        </a>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light barraBusqueda">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler botonNav"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item elementoNav">
+              <a class="nav-link" href="./AAmenu.html"><h3>Menú</h3></a>
+            </li>
+            <li class="nav-item elementoNav">
+              <a class="nav-link" href="./formulario.html"
+                ><h3>Formulario</h3></a
+              >
+            </li>
+            <li class="nav-item elementoNav">
+              <a class="nav-link" href="./spotify.html"
+                ><h3>Spotify</h3></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-10"><h1>Valentín Oliva</h1></div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-1"></div>
+      <!-- CAROUSEL-->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide col-md-5 col-sm-10 col-xs-10"
+        data-bs-ride="carousel"
+        title="Wos"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/wos1.jpg"
+              class="d-block w-100"
+              alt="Imagen de Wos nº1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/wos2.jpeg"
+              class="d-block w-100"
+              alt="Imagen de Wos nº2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/wos3.jpg"
+              class="d-block w-100"
+              alt="Imagen de Wos nº3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="col-1"></div>
+      <div class="col-md-4 col-sm-11 col-xs-10">
+        <p class="descripcion">
+            Valentín Oliva (Buenos Aires, 23 de enero de 1998), conocido 
+            artísticamente como Wos (estilizado como WOS o WOS DS3), es un rapero, 
+            freestyler, cantante y actor argentino.
+            <br>
+            Wos surgió en la escena de las batallas de rap entre freestylers, y fue
+             campeón en varias ocasiones de la competencia argentina El Quinto 
+             Escalón, que lo impulsó a ser uno de los artistas urbanos más 
+             reconocidos del país. Además fue campeón de la FMS Argentina 2018 y del
+              torneo internacional de Red Bull Batalla de los Gallos 2018, al vencer
+               al rapero Aczino en Buenos Aires, tras haber sido subcampeón la 
+               edición pasada frente al mismo en México.
+        </p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <br />
+    <br />
+    <hr>
+    <br />
+    <br />
+
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-md-4 col-sm-10 col-xs-10">
+        <p class="descripcion">
+            Tras su éxito en las batallas de rap, Wos decidió perseguir su carrera 
+            musical. En 2018 lanzó su primer sencillo, «Púrpura», un trap agresivo. 
+            En 2019 lanzó su primer álbum de estudio, Caravana, cuyo sencillo de 
+            presentación, «Canguro», se colocó entre los 10 primeros puestos de las 
+            listas argentinas por varias semanas, y gracias al cual logró ganar tres 
+            Premios Gardel por mejor nuevo artista, mejor álbum/canción urbana y 
+            canción del año. También logró ser nominado para los premio Latin Grammy 
+            por mejor nuevo artista. En 2020, sacó el EP Tres puntos suspensivos.
+        </p>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-md-4 col-sm-10 col-xs-10">
+        <div class="iframe">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2nNUnkVnoTI?controls=0&amp;start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+      <div class="col-2"></div>
+      
+    </div>
+    <br />
+    <br />
+    <div class="gato"></div>
+    <br />
+    <br />
+    <br />
+    <footer class="col-12"> 
+      <font size="2">
+        <p id="letraFooter"><b> Proyecto Final Desarrollo de aplicaciones Web, Interfaces</b></a></p>
+      </font>
+    </footer>
+  </body>
+  <!-- Archivo JS Bootstrap 5 -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

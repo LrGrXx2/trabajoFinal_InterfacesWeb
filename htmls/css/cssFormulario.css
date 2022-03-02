@@ -1,0 +1,33 @@
+h2.titulo {
+  color: #845460 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: bolder !important;
+  font-size: xx-large !important;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: medium !important;
+  font-weight: 600 !important;
+  color: #bdc7c9 !important;
+}
+
+nav {
+  background-color: #2b4f60 !important;
+  color: #ead3cb !important;
+}
+
+header {
+  background-color: #bdc7c9 !important;
+  color: #2b4f60 !important;
+  height: 30% !important;
+  width: 100% !important;
+}
+
+li, ul {
+  list-style: none !important;
+}
+
+.formulario{
+    padding: 20px 20px 20px 20px !important;
+}

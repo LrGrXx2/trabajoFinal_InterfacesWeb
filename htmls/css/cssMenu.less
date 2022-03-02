@@ -1,0 +1,124 @@
+@completo: 100%;
+@rosaClaro: #ead3cb;
+@azulClaro: #BDC7C9;
+@rosaOscuro: #845460;
+@azulOscuro: #2B4F60;
+
+@centrado: center;
+
+@fuente: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+@pxGato: 32px;
+
+@keyframes play {
+	from {
+		background-position: -283px -192px;
+	}
+	to {
+		background-position: -379px -192px;
+	}
+}
+table {
+	width: @completo;
+}
+td {
+	text-align: @centrado;
+	width: 8%;
+}
+body {
+	background-color: @rosaClaro;
+}
+header {
+	background-color: @azulClaro;
+	color: @azulOscuro;
+	height: 20%;
+	width: @completo;
+}
+footer {
+	background-color: @azulOscuro;
+	color: @azulClaro;
+	height: 40px;
+	width: 99%;
+	bottom: 0;
+	position: fixed;
+	text-align: @centrado;
+}
+p {
+	color: black;
+	text-align: justify;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: @azulOscuro;
+	color: @azulClaro;
+}
+li {
+	float: left;
+	border: 50px;
+	a {
+		display: block;
+		color: white;
+		text-align: @centrado;
+		padding: 1px 35px;
+		text-decoration: none;
+		&:hover {
+			background-color: #1b313c;
+			color: white;
+		}
+	}
+}
+nav {
+	background-color: @azulOscuro;
+	color: @rosaClaro;
+}
+#letraFooter {
+	color: #d1dbdd;
+	font-family: @fuente;
+	font-weight: 500;
+	text-align: @centrado;
+}
+.active {
+	background-color: #1b313c;
+	color: white;
+}
+h1 {
+	color: @rosaOscuro;
+	font-family: @fuente;
+	font-weight: bolder;
+	font-size: xx-large;
+	text-align: center;
+}
+.titulo {
+	display: inline;
+}
+h3 {
+	font-family: @fuente;
+	font-size: medium;
+	font-weight: 600;
+}
+.tituloTabla {
+	text-align: @centrado;
+}
+p.nombre {
+	color: black;
+	color: @rosaOscuro;
+	font-family: @fuente;
+	font-weight: bolder;
+	font-size: x-large;
+}
+p.nota {
+	color: #573941;
+	font-family: @fuente;
+	font-weight: bolder;
+	font-size: large;
+}
+div.gato {
+	width: @pxGato;
+	height: @pxGato;
+	background: url('../img/sprite.png') left @centrado;
+	margin: 0 auto;
+	animation: play .60s steps(3, end) infinite;
+}
